@@ -19,4 +19,22 @@
 
 按照原地址的顺序及说明，参考本仓库代码
 
+### 启动方法
+
+MySQL中新建数据库hutubill
+
+并新建表
+
+可通过运行`SQL`目录下的三个sql文件快速创建三个表
+
+在`src/main/resources`目录下添加文件`MySQL-config.properties`
+
+```properties
+url=jdbc:mysql://localhost:3306/hutubill
+loginName=用户名
+password=密码
+```
+
+
+
 [hutubill]:https://how2j.cn/k/hutubill/hutubill-tutorials/710.html?p=152524
